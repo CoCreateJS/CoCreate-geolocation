@@ -1,0 +1,44 @@
+{
+  "name": "@cocreate/geolocation",
+  "version": "1.0.0",
+  "description": "CoCreate actions for the browser Geolocation API.",
+  "keywords": [
+    "geolocation",
+    "location",
+    "browser-api",
+    "low-code",
+    "realtime-framework",
+    "html5-framework"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack --mode=production --config webpack.config.js",
+    "dev": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoCreateJS/CoCreate-geolocation.git"
+  },
+  "author": "CoCreate LLC",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/CoCreateJS/CoCreate-geolocation/issues"
+  },
+  "homepage": "https://cocreate.app/docs/geolocation",
+  "main": "./src/index.js",
+  "dependencies": {
+    "@cocreate/actions": "^1.27.0",
+    "@cocreate/api": "^1.34.0"
+  },
+  "devDependencies": {
+    "@cocreate/webpack": "^1.9.0"
+  },
+  "allowScripts": {
+    "@cocreate/actions@1.27.0": true,
+    "@cocreate/api@1.34.0": true,
+    "@cocreate/webpack@1.9.0": true
+  }
+}
