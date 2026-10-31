@@ -8,7 +8,7 @@ CoCreate actions for the browser Geolocation API.
 yarn add @cocreate/geolocation
 ```
 
-Or load the browser bundle from `https://cdn.cocreate.app/geolocation/latest/CoCreate-geolocation.min.js`.
+Or load the browser bundle from `https://cdn.CoCreateJS.com/geolocation/latest/CoCreate-geolocation.min.js`.
 
 ## Usage
 

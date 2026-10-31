@@ -51,7 +51,7 @@
   "bugs": {
     "url": "https://github.com/CoCreateJS/CoCreate-geolocation/issues"
   },
-  "homepage": "https://cocreate.app/docs/geolocation",
+  "homepage": "https://CoCreateJS.com/docs/geolocation",
   "main": "./src/index.js",
   "dependencies": {
     "@cocreate/actions": "^1.27.0",

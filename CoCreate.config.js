@@ -11,7 +11,7 @@ module.exports = {
                 path: "/docs/geolocation",
                 pathname: "/docs/geolocation/index.html",
                 src: "{{./docs/index.html}}",
-                host: ["cocreate.app", "general.cocreate.app"],
+                host: ["CoCreateJS.com", "general.CoCreateJS.com"],
                 directory: "geolocation",
                 "content-type": "{{content-type}}",
                 public: "true"
