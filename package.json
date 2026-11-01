@@ -13,30 +13,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "cocreate": {
-    "environment": [
-      "client"
-    ],
-    "interface": {
-      "schemaVersion": 1,
-      "summary": "CoCreate actions for the browser Geolocation API.",
-      "source": "src/index.js",
-      "declarative": {
-        "actions": [
-          {
-            "name": "geoLocation"
-          }
-        ]
-      },
-      "api": {
-        "exports": [
-          "clearWatch",
-          "getCurrentPosition",
-          "watchPosition"
-        ]
-      }
-    }
-  },
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "build": "webpack --mode=production --config webpack.config.js",

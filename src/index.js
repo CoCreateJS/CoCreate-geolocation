@@ -8,6 +8,11 @@ const geolocationHandlers = {
 };
 
 // Get Current Position
+/**
+ *
+ * @public
+ * @environment client
+ */
 async function getCurrentPosition(action) {
 	if (action.element) action.options = await Api.getData(action);
 
@@ -25,6 +30,11 @@ async function getCurrentPosition(action) {
 }
 
 // Watch Position
+/**
+ *
+ * @public
+ * @environment client
+ */
 async function watchPosition(action) {
 	if (action.element) action.options = await Api.getData(action);
 
@@ -47,6 +57,11 @@ async function watchPosition(action) {
 }
 
 // Clear Watch
+/**
+ *
+ * @public
+ * @environment client
+ */
 async function clearWatch(action) {
 	if (action.element) action.options = await Api.getData(action);
 
@@ -90,3 +105,27 @@ export default {
 	watchPosition,
 	clearWatch
 };
+
+/**
+ * CoCreate actions for the browser Geolocation API.
+ *
+ * @module geolocation
+ * @environment client
+ */
+
+/**
+ * Declarative actions supported or registered by this module.
+ *
+ * @name declarative-actions
+ * @kind member
+ * @actions
+ * @environment client
+ * @example
+ * ```json
+ * [
+ *   {
+ *     "name": "geoLocation"
+ *   }
+ * ]
+ * ```
+ */
